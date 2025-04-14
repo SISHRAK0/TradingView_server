@@ -1,0 +1,3 @@
+/Users/sishrak/Desktop/TradingView_server/cmake-build-debug/CMakeFiles/TradingView_server.dir
+/Users/sishrak/Desktop/TradingView_server/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/sishrak/Desktop/TradingView_server/cmake-build-debug/CMakeFiles/rebuild_cache.dir

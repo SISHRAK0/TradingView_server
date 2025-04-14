@@ -1,0 +1,12 @@
+# ninja log v5
+55	1539	1744636877237942580	CMakeFiles/TradingView_server.dir/Server_TradingView/main.cpp.o	fe99cd3e67f6eaf0
+34	726	1744634625269614374	CMakeFiles/TradingView_server.dir/imgui/imgui_demo.cpp.o	675a59552312bcca
+36	735	1744634625278342552	CMakeFiles/TradingView_server.dir/imgui/backends/imgui_impl_glfw.cpp.o	9850c06bc93a8592
+35	906	1744634625446298744	CMakeFiles/TradingView_server.dir/imgui/imgui_widgets.cpp.o	f3dacc19e069bf54
+34	701	1744634625243304800	CMakeFiles/TradingView_server.dir/imgui/imgui_draw.cpp.o	de033203d804380f
+701	821	1744634625362050006	CMakeFiles/TradingView_server.dir/imgui/backends/imgui_impl_opengl3.cpp.o	c46236cd8a014c1f
+34	993	1744634625532300751	CMakeFiles/TradingView_server.dir/imgui/imgui.cpp.o	e5fe24818150b9d0
+30	1661	1744636917751179895	CMakeFiles/TradingView_server.dir/Server_TradingView/main.cpp.o	e475d46b538982ac
+1661	1827	1744636917923011343	TradingView_server	59e61d58b331c163
+13	1929	1744637490280411792	CMakeFiles/TradingView_server.dir/Server_TradingView/main.cpp.o	e475d46b538982ac
+1930	2136	1744637490494199656	TradingView_server	59e61d58b331c163
