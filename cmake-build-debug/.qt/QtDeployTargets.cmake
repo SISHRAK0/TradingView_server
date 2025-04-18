@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_trading_bot_FILE /Users/sishrak/Desktop/TradingView_server/cmake-build-debug/trading_bot)
+set(__QT_DEPLOY_TARGET_trading_bot_TYPE EXECUTABLE)
