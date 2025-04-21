@@ -1,5 +1,3 @@
 /Users/sishrak/Desktop/TradingView_server/cmake-build-debug/CMakeFiles/trading_bot.dir
 /Users/sishrak/Desktop/TradingView_server/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/sishrak/Desktop/TradingView_server/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/sishrak/Desktop/TradingView_server/cmake-build-debug/CMakeFiles/trading_bot_autogen_timestamp_deps.dir
-/Users/sishrak/Desktop/TradingView_server/cmake-build-debug/CMakeFiles/trading_bot_autogen.dir

@@ -483,7 +483,63 @@
 	"CMAKE_SOURCE_DIR" : "/Users/sishrak/Desktop/TradingView_server",
 	"DEP_FILE" : "/Users/sishrak/Desktop/TradingView_server/cmake-build-debug/trading_bot_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "trading_bot_autogen/timestamp",
-	"HEADERS" : [],
+	"HEADERS" : 
+	[
+		[
+			"/Users/sishrak/Desktop/TradingView_server/Server_TradingView/binance_ex.h",
+			"MU",
+			"Q2RTKDO5VV/moc_binance_ex.cpp",
+			null
+		],
+		[
+			"/Users/sishrak/Desktop/TradingView_server/Server_TradingView/bybit_ex.h",
+			"MU",
+			"Q2RTKDO5VV/moc_bybit_ex.cpp",
+			null
+		],
+		[
+			"/Users/sishrak/Desktop/TradingView_server/Server_TradingView/config.h",
+			"MU",
+			"Q2RTKDO5VV/moc_config.cpp",
+			null
+		],
+		[
+			"/Users/sishrak/Desktop/TradingView_server/Server_TradingView/exchange.h",
+			"MU",
+			"Q2RTKDO5VV/moc_exchange.cpp",
+			null
+		],
+		[
+			"/Users/sishrak/Desktop/TradingView_server/Server_TradingView/finandy_ex.h",
+			"MU",
+			"Q2RTKDO5VV/moc_finandy_ex.cpp",
+			null
+		],
+		[
+			"/Users/sishrak/Desktop/TradingView_server/Server_TradingView/indicators.h",
+			"MU",
+			"Q2RTKDO5VV/moc_indicators.cpp",
+			null
+		],
+		[
+			"/Users/sishrak/Desktop/TradingView_server/Server_TradingView/okx_ex.h",
+			"MU",
+			"Q2RTKDO5VV/moc_okx_ex.cpp",
+			null
+		],
+		[
+			"/Users/sishrak/Desktop/TradingView_server/Server_TradingView/trader.h",
+			"MU",
+			"Q2RTKDO5VV/moc_trader.cpp",
+			null
+		],
+		[
+			"/Users/sishrak/Desktop/TradingView_server/Server_TradingView/util.h",
+			"MU",
+			"Q2RTKDO5VV/moc_util.cpp",
+			null
+		]
+	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "/Users/sishrak/Desktop/TradingView_server/cmake-build-debug/trading_bot_autogen/include",
 	"MOC_COMPILATION_FILE" : "/Users/sishrak/Desktop/TradingView_server/cmake-build-debug/trading_bot_autogen/mocs_compilation.cpp",
@@ -563,7 +619,52 @@
 	"SOURCES" : 
 	[
 		[
-			"/Users/sishrak/Desktop/TradingView_server/Server_TradingView/main.cpp",
+			"/Users/sishrak/Desktop/TradingView_server/Server_TradingView/binance_ex.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/sishrak/Desktop/TradingView_server/Server_TradingView/bybit_ex.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/sishrak/Desktop/TradingView_server/Server_TradingView/config.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/sishrak/Desktop/TradingView_server/Server_TradingView/exchange.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/sishrak/Desktop/TradingView_server/Server_TradingView/finandy_ex.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/sishrak/Desktop/TradingView_server/Server_TradingView/indicators.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/sishrak/Desktop/TradingView_server/Server_TradingView/okx_ex.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/sishrak/Desktop/TradingView_server/Server_TradingView/server.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/sishrak/Desktop/TradingView_server/Server_TradingView/trader.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/sishrak/Desktop/TradingView_server/Server_TradingView/util.cpp",
 			"MU",
 			null
 		]
