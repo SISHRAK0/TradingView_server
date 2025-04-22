@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_CryptoBacktesterGUI_FILE /Users/sishrak/Desktop/TradingView_server/backtests/cmake-build-debug/CryptoBacktesterGUI)
+set(__QT_DEPLOY_TARGET_CryptoBacktesterGUI_TYPE EXECUTABLE)

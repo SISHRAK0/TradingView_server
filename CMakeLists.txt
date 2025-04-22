@@ -25,6 +25,9 @@ cmake_minimum_required(VERSION 3.22)
          Server_TradingView/bybit_ex.h
          Server_TradingView/okx_ex.cpp
          Server_TradingView/okx_ex.h
-         Server_TradingView/exchange.cpp)
+         Server_TradingView/exchange.cpp
+         backtests/src/strategy_interface.h
+         backtests/src/strategy_functions.h
+         backtests/src/backtester.h)
  target_link_libraries(trading_bot PRIVATE
  CURL::libcurl spdlog::spdlog jsoncpp_lib OpenSSL::Crypto Threads::Threads)

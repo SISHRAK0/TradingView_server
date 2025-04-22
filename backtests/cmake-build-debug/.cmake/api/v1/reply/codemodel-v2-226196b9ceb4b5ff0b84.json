@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "CryptoBacktesterGUI",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "CryptoBacktesterGUI::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CryptoBacktesterGUI-Debug-11dbae3de5a75a0007bf.json",
+					"name" : "CryptoBacktesterGUI",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CryptoBacktesterGUI_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CryptoBacktesterGUI_autogen-Debug-5d002f49579d5ace9a6b.json",
+					"name" : "CryptoBacktesterGUI_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CryptoBacktesterGUI_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CryptoBacktesterGUI_autogen_timestamp_deps-Debug-ebd1a555782b7813390d.json",
+					"name" : "CryptoBacktesterGUI_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/sishrak/Desktop/TradingView_server/backtests/cmake-build-debug",
+		"source" : "/Users/sishrak/Desktop/TradingView_server/backtests"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

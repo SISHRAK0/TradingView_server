@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>MainWindow</class>
+    <widget class="QMainWindow" name="MainWindow">
+        <property name="geometry">
+            <rect><x>0</x><y>0</y><width>800</width><height>600</height></rect>
+        </property>
+        <widget class="QWidget" name="centralwidget">
+            <layout class="QVBoxLayout" name="verticalLayout">
+                <item>
+                    <widget class="QTabWidget" name="tabWidget">
+                        <property name="currentIndex"><number>0</number></property>
+                        <widget class="QWidget" name="settingsTab">
+                            <attribute name="title"><string>Settings</string></attribute>
+                            <layout class="QFormLayout" name="formLayout">
+                                <item row="0" column="0"><widget class="QLineEdit" name="commissionEdit"/></item>
+                                <item row="0" column="1"><widget class="QLineEdit" name="balanceEdit"/></item>
+                                <item row="1" column="0"><widget class="QLineEdit" name="symbolEdit"/></item>
+                                <item row="1" column="1"><widget class="QComboBox" name="marketCombo"/></item>
+                                <item row="2" column="0"><widget class="QSpinBox" name="leverageSpin"/></item>
+                                <item row="2" column="1"><widget class="QLineEdit" name="intervalEdit"/></item>
+                                <item row="3" column="0">
+                                    <widget class="QDateEdit" name="fromDate">
+                                        <property name="calendarPopup"><bool>true</bool></property>
+                                    </widget>
+                                </item>
+                                <item row="3" column="1">
+                                    <widget class="QDateEdit" name="toDate">
+                                        <property name="calendarPopup"><bool>true</bool></property>
+                                    </widget>
+                                </item>
+                                <item row="4" column="0"><widget class="QPushButton" name="compileBtn"/></item>
+                                <item row="4" column="1"><widget class="QPushButton" name="runBtn"/></item>
+                            </layout>
+                        </widget>
+                        <widget class="QWidget" name="strategyTab">
+                            <attribute name="title"><string>Strategy</string></attribute>
+                            <layout class="QVBoxLayout" name="strategyLayout">
+                                <item><widget class="QTextEdit" name="codeEdit"/></item>
+                                <item>
+                                    <widget class="QLabel" name="errorLabel">
+                                        <property name="text"><string/></property>
+                                    </widget>
+                                </item>
+                            </layout>
+                        </widget>
+                        <widget class="QWidget" name="tradesTab">
+                            <attribute name="title"><string>Trades</string></attribute>
+                            <layout class="QVBoxLayout" name="tradesLayout">
+                                <item><widget class="QTableWidget" name="tradesTable"/></item>
+                                <item><widget class="QLabel" name="summaryLabel"/></item>
+                            </layout>
+                        </widget>
+                    </widget>
+                </item>
+            </layout>
+        </widget>
+    </widget>
+    <resources/>
+    <connections/>
+</ui>

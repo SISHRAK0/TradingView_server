@@ -1,0 +1,8 @@
+{
+  "commission": 0.001,
+  "initial_balance": 10000.0,
+  "symbol": "BTCUSDT",
+  "market": "spot",
+  "leverage": 1,
+  "interval": "1m"
+}
