@@ -560,6 +560,11 @@
 			"/Users/sishrak/Desktop/TradingView_server/backtests/src/main.cpp",
 			"MU",
 			null
+		],
+		[
+			"/Users/sishrak/Desktop/TradingView_server/mining/main.cpp",
+			"MU",
+			null
 		]
 	],
 	"UIC_OPTIONS" : [],

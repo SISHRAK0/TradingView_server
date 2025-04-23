@@ -8,7 +8,7 @@
 
 class FinandyEx : public BinanceEx {
 public:
-     [[nodiscard]] std::string name() const override { return "FINANDY"; }
+    [[nodiscard]] std::string name() const override { return "FINANDY"; }
 
     void setJson(const Json::Value &j);
 

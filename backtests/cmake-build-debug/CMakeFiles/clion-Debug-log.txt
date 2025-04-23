@@ -1,5 +1,5 @@
 /Users/sishrak/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Users/sishrak/Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -G Ninja -S /Users/sishrak/Desktop/TradingView_server/backtests -B /Users/sishrak/Desktop/TradingView_server/backtests/cmake-build-debug
 -- Could NOT find WrapVulkanHeaders (missing: Vulkan_INCLUDE_DIR) 
--- Configuring done (0.5s)
+-- Configuring done (0.8s)
 -- Generating done (0.0s)
 -- Build files have been written to: /Users/sishrak/Desktop/TradingView_server/backtests/cmake-build-debug

@@ -89,6 +89,14 @@ build CMakeFiles/CryptoBacktesterGUI.dir/src/StrategyManager.cpp.o: CXX_COMPILER
   OBJECT_DIR = CMakeFiles/CryptoBacktesterGUI.dir
   OBJECT_FILE_DIR = CMakeFiles/CryptoBacktesterGUI.dir/src
 
+build CMakeFiles/CryptoBacktesterGUI.dir/Users/sishrak/Desktop/TradingView_server/mining/main.cpp.o: CXX_COMPILER__CryptoBacktesterGUI_unscanned_Debug /Users/sishrak/Desktop/TradingView_server/mining/main.cpp || cmake_object_order_depends_target_CryptoBacktesterGUI
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/CryptoBacktesterGUI.dir/Users/sishrak/Desktop/TradingView_server/mining/main.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk -mmacosx-version-min=15.3 -fcolor-diagnostics
+  INCLUDES = -I/Users/sishrak/Desktop/TradingView_server/backtests/cmake-build-debug/CryptoBacktesterGUI_autogen/include -I/Users/sishrak/Desktop/TradingView_server/backtests/src -I/Users/sishrak/Desktop/TradingView_server/backtests/cmake-build-debug -isystem /opt/homebrew/lib/QtWidgets.framework/Headers -iframework /opt/homebrew/lib -isystem /opt/homebrew/lib/QtCore.framework/Headers -isystem /opt/homebrew/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/include -isystem /opt/homebrew/lib/QtGui.framework/Headers -isystem /opt/homebrew/lib/QtNetwork.framework/Headers
+  OBJECT_DIR = CMakeFiles/CryptoBacktesterGUI.dir
+  OBJECT_FILE_DIR = CMakeFiles/CryptoBacktesterGUI.dir/Users/sishrak/Desktop/TradingView_server/mining
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target CryptoBacktesterGUI
@@ -97,7 +105,7 @@ build CMakeFiles/CryptoBacktesterGUI.dir/src/StrategyManager.cpp.o: CXX_COMPILER
 #############################################
 # Link the executable CryptoBacktesterGUI
 
-build CryptoBacktesterGUI: CXX_EXECUTABLE_LINKER__CryptoBacktesterGUI_Debug CMakeFiles/CryptoBacktesterGUI.dir/CryptoBacktesterGUI_autogen/mocs_compilation.cpp.o CMakeFiles/CryptoBacktesterGUI.dir/src/main.cpp.o CMakeFiles/CryptoBacktesterGUI.dir/src/MainWindow.cpp.o CMakeFiles/CryptoBacktesterGUI.dir/src/backtester.cpp.o CMakeFiles/CryptoBacktesterGUI.dir/src/StrategyManager.cpp.o | /opt/homebrew/lib/QtWidgets.framework/Versions/A/QtWidgets /opt/homebrew/lib/QtNetwork.framework/Versions/A/QtNetwork /opt/homebrew/lib/QtGui.framework/Versions/A/QtGui /opt/homebrew/lib/QtCore.framework/Versions/A/QtCore || CryptoBacktesterGUI_autogen CryptoBacktesterGUI_autogen_timestamp_deps
+build CryptoBacktesterGUI: CXX_EXECUTABLE_LINKER__CryptoBacktesterGUI_Debug CMakeFiles/CryptoBacktesterGUI.dir/CryptoBacktesterGUI_autogen/mocs_compilation.cpp.o CMakeFiles/CryptoBacktesterGUI.dir/src/main.cpp.o CMakeFiles/CryptoBacktesterGUI.dir/src/MainWindow.cpp.o CMakeFiles/CryptoBacktesterGUI.dir/src/backtester.cpp.o CMakeFiles/CryptoBacktesterGUI.dir/src/StrategyManager.cpp.o CMakeFiles/CryptoBacktesterGUI.dir/Users/sishrak/Desktop/TradingView_server/mining/main.cpp.o | /opt/homebrew/lib/QtWidgets.framework/Versions/A/QtWidgets /opt/homebrew/lib/QtNetwork.framework/Versions/A/QtNetwork /opt/homebrew/lib/QtGui.framework/Versions/A/QtGui /opt/homebrew/lib/QtCore.framework/Versions/A/QtCore || CryptoBacktesterGUI_autogen CryptoBacktesterGUI_autogen_timestamp_deps
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk -mmacosx-version-min=15.3
   LINK_LIBRARIES = -Wl,-rpath,/opt/homebrew/lib  /opt/homebrew/lib/QtWidgets.framework/Versions/A/QtWidgets  /opt/homebrew/lib/QtNetwork.framework/Versions/A/QtNetwork  -ldl  /opt/homebrew/lib/QtGui.framework/Versions/A/QtGui  -framework AGL  -framework AppKit  -framework OpenGL  -framework ImageIO  -framework Metal  /opt/homebrew/lib/QtCore.framework/Versions/A/QtCore  -framework IOKit  -framework DiskArbitration  -framework UniformTypeIdentifiers
   LINK_PATH = -F/opt/homebrew/lib
@@ -165,7 +173,7 @@ build CryptoBacktesterGUI_autogen/timestamp CryptoBacktesterGUI_autogen/mocs_com
 #############################################
 # Phony custom command for CMakeFiles/CryptoBacktesterGUI_autogen_timestamp_deps
 
-build CMakeFiles/CryptoBacktesterGUI_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/CryptoBacktesterGUI_autogen_timestamp_deps: phony /opt/homebrew/share/qt/libexec/uic /opt/homebrew/share/qt/libexec/moc /opt/homebrew/lib/QtNetwork.framework/Versions/A/QtNetwork /opt/homebrew/lib/QtWidgets.framework/Versions/A/QtWidgets
+build CMakeFiles/CryptoBacktesterGUI_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/CryptoBacktesterGUI_autogen_timestamp_deps: phony /opt/homebrew/lib/QtWidgets.framework/Versions/A/QtWidgets /opt/homebrew/lib/QtNetwork.framework/Versions/A/QtNetwork /opt/homebrew/share/qt/libexec/uic /opt/homebrew/share/qt/libexec/moc
 
 
 #############################################

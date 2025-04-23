@@ -12,8 +12,8 @@ MainWindow::MainWindow(QWidget *parent)
     ui->tradesTable->setHorizontalHeaderLabels(
             QStringList{"Time", "Type", "Price", "Qty", "P/L"});
     // Set default date range: last month to today
-    ui->fromDate->setDateTime(QDateTime(QDate::currentDate().addMonths(-1), QTime(0,0)));
-    ui->toDate  ->setDateTime(QDateTime(QDate::currentDate(),          QTime(23,59,59)));
+    ui->fromDate->setDateTime(QDateTime(QDate::currentDate().addMonths(-1), QTime(0, 0)));
+    ui->toDate->setDateTime(QDateTime(QDate::currentDate(), QTime(23, 59, 59)));
 
 
     // Initialize settings tab

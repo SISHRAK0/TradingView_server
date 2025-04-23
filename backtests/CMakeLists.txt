@@ -12,6 +12,7 @@ add_executable(CryptoBacktesterGUI
         src/StrategyManager.h
         src/StrategyManager.cpp
         src/strategy_interface.h
+        ../mining/main.cpp
 )
 qt6_wrap_ui(UISrcs src/MainWindow.ui)
 target_sources(CryptoBacktesterGUI PRIVATE ${UISrcs})
